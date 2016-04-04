@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lights Out!</title>
+  <style>
+    html,body{
+      margin:0;
+      padding:0;
+      text-align: center;
+    }
+    section{
+      display: inline-block;
+    }
+    div{
+      display: flex;
+      align-items: center;
+    }
+    button{
+      width: 25vh;
+      height: 24vh;
+      margin: 0.5vh;
+      background: #123148;
+      border-radius: 50%;
+      border: none;
+    }
+    button.on{
+      background: #2fa7ff;
+    }
+    button:focus{outline: none;}
+  </style>
+  <script src="game.js"></script>
+</head>
+<body>
+  <section class="on off">
+    <div>
+      <button></button>
+      <button></button>
+      <button></button>
+    </div>
+    <div>
+      <button></button>
+      <button></button>
+      <button></button>
+    </div>
+    <div>
+      <button></button>
+      <button></button>
+      <button></button>
+    </div>
+    <div>
+      <button></button>
+      <button></button>
+      <button></button>
+    </div>
+  </section>
+</body>
+</html>
